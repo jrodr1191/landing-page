@@ -88,6 +88,8 @@ ul {
 .intro-image img{
     width: 500px;
     height: 350px;
+    border-radius: 8px;
+    border: 2px solid #3882f6;
 }
 
 .top-button {
@@ -102,3 +104,96 @@ ul {
     width: 105px;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main h4 {
+    text-align: center;
+    font-size: 28px;
+    margin: 12px;
+}
+
+.main-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content {
+    margin: 12px;
+    text-align: center;
+}
+
+.content img {
+    border-radius: 8px;
+    border: 2px solid #3882f6;
+}
+
+.quote {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    padding: 36px 24px;
+    margin: 24px 0px;
+}
+
+.quote-text {
+    text-align: center;
+}
+
+.author {
+    font-weight: 1200px;
+    align-self: flex-end;
+    margin: 12px 24px;
+}
+
+.action {
+    display: flex;
+    background-color: #3882f6;
+    padding: 24px;
+    color: #e5e7eb;
+    justify-content: space-between;
+    margin: 0px 100px;
+    border-radius: 8px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.action-text p {
+    margin: 0;
+}
+
+.action-text h4 {
+    margin: 0;
+    align-self: flex-start;
+}
+
+.bottom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-button button {
+    border: 2px solid #e5e7eb;
+    width: 100px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 8px;
+    padding: 6px;
+    font-weight: 700;
+}
+
+.footer {
+    margin-top: 24px;
+    background-color: #1f2937;
+    padding: 24px;
+    text-align: center;
+    color: #e5e7eb;
+}
